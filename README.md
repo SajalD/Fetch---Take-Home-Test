@@ -1,6 +1,6 @@
 # Fetch---Take-Home-Test
 
-## Data Quality Issues Identified
+## First: explore the data
 
 ### 1. Products Dataset
 #### Missing Values:
@@ -39,6 +39,22 @@
 - No duplicate user records detected
 
 
-## 4. #### Referential Integrity Issues
+## 4. Referential Integrity Issues
 - **USER_ID:** 49,738 transactions have `USER_ID`s not found in the Users dataset  
-- **BARCODE:** 19,408 transactions have `BARCODE`s not found in the Products dataset  
+- **BARCODE:** 19,408 transactions have `BARCODE`s not found in the Products dataset
+
+## Second:  provide SQL queries
+
+# SQL Queries for Data Analysis
+In this analysis, I used **SQLite3 in Python** to execute SQL queries for exploring and analyzing the data. The datasets are loaded into an SQLite in-memory database for querying. **Query and its output is present in Jupyter notebook as well.**
+
+## **Closed Ended Questions**
+### 1. What are the top 5 brands by receipts scanned among users 21 and over?
+### 2. What are the top 5 brands by sales among users that have had their account for at least six months?
+
+## **Open Ended Questions**
+### 2. Which is the leading brand in the Dips & Salsa category?
+
+
+
+
