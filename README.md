@@ -1,8 +1,8 @@
 # Fetch---Take-Home-Test
 
 ## First: explore the data
+Code and the output can be seen in the Jupyter notebook attached, following is a summary of basic Exploratory Data Analysis:
 
-### Code and the output can be seen in the Jupyter notebook attached, following is a summary of basic Exploratory Data Analysis:
 #### 1. Products Dataset
 ##### Missing Values:
 - **CATEGORY_1:** 111 missing values  
@@ -44,7 +44,7 @@
 - **USER_ID:** 49,738 transactions have `USER_ID`s not found in the Users dataset  
 - **BARCODE:** 19,408 transactions have `BARCODE`s not found in the Products dataset
 
-### Second:  provide SQL queries
+## Second:  provide SQL queries
 In this analysis, I used **SQLite3 in Python** to execute SQL queries for exploring and analyzing the data. The datasets are loaded into an SQLite in-memory database for querying. **Query and its output is present in Jupyter notebook as well.**
 
 #### **Closed Ended Questions**
@@ -53,6 +53,9 @@ In this analysis, I used **SQLite3 in Python** to execute SQL queries for explor
 
 #### **Open Ended Questions**
 2. Which is the leading brand in the Dips & Salsa category?
+
+## Third: communicate with stakeholders
+A word file is attached with a draft email to stakeholder summarizing the results. 
 
 
 
