@@ -2,6 +2,7 @@
 
 ## First: explore the data
 
+### Code and the output can be seen in the Jupyter notebook attached, following is a summary of basic Exploratory Data Analysis:
 ### 1. Products Dataset
 #### Missing Values:
 - **CATEGORY_1:** 111 missing values  
